@@ -1,0 +1,53 @@
+body, #softBoardListLayer, .layerSchoolSelectWrap, .layerSchoolSelectWrap .layerSchoolArea li span, .layerSchoolSelectWrap .layerSchoolArea li a {
+    background: var(--dark) !important;
+}
+
+.step_bar li.step_bar_num::before {
+    background-color: transparent !important;
+}
+
+p {
+    background: transparent !important;
+    color: var(--header) !important;
+}
+
+.serviceWrap {
+    background: none !important;
+}
+
+.memberWrap .mtt {
+    color: var(--header) !important;
+}
+
+.memberWrap ul li, .survey_question dl dt, .translationSelection #translationSelectionBtn, .guid_contents, .guid_contents.type2, #WriteInfoForm table tbody th, .input_text_search, .input_text_common, select, .searchArea {
+    background: var(--light-dark) !important;
+}
+
+.survey_question dl dt, .translationSelection #translationSelectionBtn,.guid_contents, .guid_contents.type2 {
+    border-radius: 10px !important;
+    color: var(--text) !important;
+
+}
+
+.survey_question dl dd li input[type="radio"] + label, .survey_question dl dd li input[type="checkbox"] + label, #WriteInfoForm table tbody th, .input_text_search, .input_text_common, select, .searchArea, .layerSchoolSelectWrap .layerSchoolTable tbody tr th, .layerSchoolSelectWrap .layerSchoolArea li span {
+    color: var(--text) !important
+}
+
+div > #btnConfirm {
+    width: 25% !important;
+    border-radius: 20px !important;
+}
+
+.guide_center span {
+    color: var(--header) !important;
+}
+
+.layerSchoolSelectWrap .layerSchoolArea li p > a:hover {
+    color: var(--dark) !important;
+}
+:root {
+    --light-dark: #4f545c29;
+    --dark: #2C2F33;
+    --header: #fefefe;
+    --text: #b9bbbe;
+}

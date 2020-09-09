@@ -1,0 +1,26 @@
+{
+    "name": "자가진단 다크모드",
+    "version": "1.0.0",
+    "description": "👀 당신의 눈은 소중하니까요.",
+    "offline_enabled": true,
+    "permissions": [
+      "http://hcs.eduro.go.kr/*", "https://hcs.eduro.go.kr/*", "tabs", "storage"
+    ],
+    "browser_action": {
+      "default_title": "자가진단 다크모드",
+      "default_popup": "views/popup.html"
+    },
+    "content_scripts": [
+      {
+        "run_at": "document_start",
+        "matches": [
+            "http://hcs.eduro.go.kr/*", 
+            "https://hcs.eduro.go.kr/*"
+        ],
+        "css": [
+          "styles/darkmode.css"
+        ]
+      }
+    ],
+    "manifest_version": 2
+  }
