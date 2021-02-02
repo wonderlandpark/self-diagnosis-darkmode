@@ -9,3 +9,4 @@
 ## 설치
 
 [크롬 확장 프로그램](https://chrome.google.com/webstore/detail/%EC%9E%90%EA%B0%80%EC%A7%84%EB%8B%A8-%EB%8B%A4%ED%81%AC%EB%AA%A8%EB%93%9C/gpjdpoghkpdmgoopbodmpndlkhibmbce)
+[FireFox 확장 프로그램](https://addons.mozilla.org/ko/firefox/addon/%EC%9E%90%EA%B0%80%EC%A7%84%EB%8B%A8-%EB%8B%A4%ED%81%AC%EB%AA%A8%EB%93%9C)
